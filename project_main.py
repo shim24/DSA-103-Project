@@ -506,7 +506,7 @@ def property_boxplot_top_classes(df, prop, class_col=CLASS_COL, n_classes=8, out
         else:
             y_labels.append(label)
     
-    plt.yticks(ticks=range(len(class_order)), labels=y_labels)
+    plt.yticks(ticks=range(len(class_order)), labels=y_labels,fontsize=20)
     plt.ylabel(class_col)
     plt.xlabel(prop)
     plt.title(f"{prop} distribution by {class_col} (Top {n_classes} classes)")
