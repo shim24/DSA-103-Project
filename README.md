@@ -1,20 +1,25 @@
 # DSA-103-Project
 "Chemical property analysis and visualization of compounds" using doi/10.1126/sciadv.adi4029
 
+# ChemProj: Chemical Data Analysis Pipeline
 
+## Overview
+**ChemProj** is a Python-based pipeline for chemical space analysis. It computes molecular descriptors, performs PCA and UMAP dimensionality reduction, generates scaffold and class distributions, and produces high-quality visualizations for chemical property exploration. The pipeline is designed for efficiency, reproducibility, and ease of use.
 
-# Download the latest Miniconda installer for Linux (Python 3.10 version)
+---
+
+## Installation & Setup
+
+### 1. Download and Install Miniconda (Linux, Python 3.10)
+```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
-
-#Run the installer 
 bash Miniconda3-latest-Linux-x86_64.sh
-
-#Activate Conda
 source ~/.bashrc
 
 
+
 #Creating environment
+
 conda create -n chemproj python=3.10
 
 #Activate environment
