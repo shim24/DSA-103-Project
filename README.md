@@ -135,10 +135,9 @@ analysis_output/
 │   ├── umap_plot.png
 │   ├── Fsp3_by_top_classes.png
 │   └── boxplot_*.png
-├── data/
-│   ├── pca_loadings.csv
-│   └── processed_data.csv
-└── analysis_summary.txt
+├── pca_loadings.csv
+└──compounds_with_descriptors.csv
+
 ```
 
 ## Troubleshooting
